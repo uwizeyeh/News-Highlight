@@ -1,4 +1,4 @@
-#PROJECT NAME
+# PROJECT NAME
 News Highlights Application
 ## Author
 By uwizeyimana Hulde
@@ -13,11 +13,21 @@ With the application, a user will be able to:
 * Click on an article and read it fully from the news source
 ## Specifications
 
-### Behaviour	          Input	                 Output
-Display news sources	On page load	List of various news sources is displayed per category
-Display articles from a news source	Click a news source	Redirected to a page with a list of articles from the source
-Display the preview of an article	On page load	Each article displays an image, title, description and publication date
-Read an entire article	Click an article	Redirected to the news source's site to read the entire article
+### Behaviour	        
+Display news sources	
+Display articles from a news source	
+Display the preview of an article	
+Read an entire article	
+### Input	
+	On page load
+    Click a news source
+    On page load
+    Click an article
+### Output    		
+    List of various news sources is displayed per category
+	Redirected to a page with a list of articles from the source
+	Each article displays an image, title, description and publication date
+	Redirected to the news source's site to read the entir
 ## Prerequisites
 You need the following to start working on the project on your local computer:
 

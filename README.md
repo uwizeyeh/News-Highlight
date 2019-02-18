@@ -14,10 +14,10 @@ With the application, a user will be able to:
 ## Specifications
 
 ### Behaviour	        
-Display news sources	
-Display articles from a news source	
-Display the preview of an article	
-Read an entire article	
+* Display news sources	
+* Display articles from a news source	
+* Display the preview of an article	
+* Read an entire article	
 ### Input	
 	On page load
     Click a news source

@@ -41,7 +41,7 @@ You need the following to start working on the project on your local computer:
 Clone this repository to your local computer.
 Ensure you have python3.6 installed in your computer.
 From the terminal navigate to the cloned project folder.
-Create a virtual environment and access the folder via your virtual amchine.
+Create a virtual environment and access the folder via your virtual a machine.
 Visit https://newsapi.org/ and register for an API key.
 Create start.sh file and in it write the following lines:
  export NEWS_API_KEY='<Your-Api-Key>'
@@ -50,9 +50,9 @@ Run chmod +x start.sh follwoed by ./start.sh while in the project folder to star
 Once started, the project can be accessed on your localhost using the address: localhost:5000.
 Alternatively the application can be accessed by visiting :
 ## Technologies Used
-Python v3.6
-Boostrap
-Flask
+* Python v3.6
+* Boostrap
+* Flask
 ## License
 MIT License
 

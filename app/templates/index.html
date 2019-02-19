@@ -1,7 +1,12 @@
 {% extends 'base.html'%}
 {% import 'macros.html' as macro%}
-
-<h1>yoooooooooooooooooo</h1>
+<!-- styles block-->
+{% block styles%}
+    {{ super() }}
+    <link rel="stylesheet" href="{{url_for('static',filename='css/index.css')}}">
+{% endblock %}
+<!-- Content block -->
+<h1>{{ message}}</h1>
 <!Doctype html>
 <html>
     <head>
@@ -9,32 +14,36 @@
         {% if title %}
         <title>{{ title }}</title>
         {% else %}
-        <title>ome to the best News Website</title>
+        <title>Highlight News Website</title>
         {% endif %}
     </head>
     <body>
-        <!-- Content block -->
-{% block content %}
+        {% block content %}
+        <h1>WELCOME TO NEWS HIGHLIGHT</h1>
+        <h2>GENERAL</h2>
+            <ul>
+                {{ macro.displaySourceList(general)}}
+            </ul>
+           
+            <h2>BUSINESS</h2>
+            <ul>
+                {{ macro.displaySourceList(business)}}
+            </ul>
 
-<!-- Popular movie -->
-<h3> Popular Movies</h3>
-<ul>
-    {{ macro.displaySourceList(general)}}
-</ul>
-<!-- Upcoming movie  -->
-<h3> Upcoming Movies </h3>
-<ul>
-    {{ macro.displaySourceList(business)}}
-</ul>
-<!-- Now showing movie -->
-<h3>Now Showing</h3>
-<ul>
-    {{ macro.displaySourceList(sports)}}
-</ul>
+            <h2>SPORTS</h2>
+            <ul>
+                {{ macro.displaySourceList(sports)}}
+            </ul>
 
-<!-- Styles block -->
-
-
-{% endblock%}
+            <h2>ENTERTAINMENT</h2>
+            <ul>
+                {{ macro.displaySourceList(entertainment)}}
+            </ul>
+            <h2>TECHNOLOGY</h2>
+            <ul>
+                {{ macro.displaySourceList(technology)}}
+            </ul>
+            {% endblock %}
     </body>
 </html>
+

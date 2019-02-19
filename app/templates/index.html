@@ -1,5 +1,7 @@
+{% extends 'base.html'%}
+{% import 'macros.html' as macro%}
 
-<h1>{{ message}}</h1>
+<h1>yoooooooooooooooooo</h1>
 <!Doctype html>
 <html>
     <head>
@@ -11,34 +13,26 @@
         {% endif %}
     </head>
     <body>
-        <h1>WELCOME TO NEWS HIGHLIGHT</h1>
-        <ul>
-            <h2>GENERAL</h2>
-            {% for source in general %}
-            <h4><li>{{ source.name }}</li></h4>
-            {{source.description}}
-            {% endfor%}
-            <h2>BUSINESS</h2>
-            {% for source in business %}
-            <h4><li>{{ source.name }}</li></h4>
-            {{source.description}}
-            {% endfor%}
-            <h2>SPORTS</h2>
-            {% for source in sports %}
-        <h4><li>{{ source.name }}</li></h4>
-            {{source.description}}
-            {% endfor%}
-            <h2>ENTERTAINMENT</h2>
-            {% for source in entertainment %}
-        <h4>  <li>{{ source.name }}</li></h4>
-            {{source.description}}
-            {% endfor%}
-            <h2>TECHNOLOGY</h2>
-            {% for source in technology %}
-        <h4><li>{{ source.name }}</li></h4>
-            {{source.description}}
-            {% endfor%}
+        <!-- Content block -->
+{% block content %}
 
-        </ul>
+<!-- Popular movie -->
+<h3> Popular Movies</h3>
+<ul>
+    {{ macro.displaySourceList(general)}}
+</ul>
+<!-- Upcoming movie  -->
+<h3> Upcoming Movies </h3>
+<ul>
+    {{ macro.displaySourceList(business)}}
+</ul>
+<!-- Now showing movie -->
+<h3>Now Showing</h3>
+<ul>
+    {{ macro.displaySourceList(sports)}}
+</ul>
+
+
+{% endblock%}
     </body>
 </html>

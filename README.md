@@ -50,9 +50,9 @@ Run chmod +x start.sh follwoed by ./start.sh while in the project folder to star
 Once started, the project can be accessed on your localhost using the address: localhost:5000.
 Alternatively the application can be accessed by visiting :
 ## Technologies Used
-Python v3.6
-Boostrap
-Flask
+* Python v3.6
+* Boostrap
+* Flask
 ## License
 MIT License
 

@@ -17,43 +17,45 @@ With the application, a user will be able to:
 * Display news sources	
 * Display articles from a news source	
 * Display the preview of an article	
-* Read an entire article	
-### Input	
+* Read an entire article
+
+### Input
 	On page load
     Click a news source
     On page load
     Click an article
+    
 ### Output    		
     List of various news sources is displayed per category
 	Redirected to a page with a list of articles from the source
 	Each article displays an image, title, description and publication date
 	Redirected to the news source's site to read the entir
+	
 ## Prerequisites
 You need the following to start working on the project on your local computer:
 
-* A computer running on either Windows, MacOS or Ubuntu operating system installed with the following:
+* A computer running on Ubuntu operating system installed with the following:
 -Python version 3.6
 -Flask
 -Pip
 -virtualenv
 -A text  Editor
+
 ## Getting Started
 Clone this repository to your local computer.
 Ensure you have python3.6 installed in your computer.
 From the terminal navigate to the cloned project folder.
 Create a virtual environment and access the folder via your virtual a machine.
 Visit https://newsapi.org/ and register for an API key.
-Create start.sh file and in it write the following lines:
+Create config.py file and in it write the following lines:
  export NEWS_API_KEY='<Your-Api-Key>'
  python3.6 manage.py server
-Run chmod +x start.sh follwoed by ./start.sh while in the project folder to start the project.
-Once started, the project can be accessed on your localhost using the address: localhost:5000.
-Alternatively the application can be accessed by visiting :https://projectnews2.herokuapp.com/
+* For more info visit :https://projectnews2.herokuapp.com/
+	
 ## Technologies Used
 * Python v3.6
 * Boostrap
 * Flask
 ## License
 MIT License
-
 Copyright (c) 2019

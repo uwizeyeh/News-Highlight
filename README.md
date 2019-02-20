@@ -11,6 +11,8 @@ With the application, a user will be able to:
 * See all news sources from the source they selected.
 * See Image description and time the news article was created.
 * Click on an article and read it fully from the news source
+### BDD
+This project work for to 
 ## Specifications
 
 ### Behaviour	        
@@ -20,16 +22,16 @@ With the application, a user will be able to:
 * Read an entire article
 
 ### Input
-	On page load
+    On page load
     Click a news source
     On page load
     Click an article
     
 ### Output    		
     List of various news sources is displayed per category
-	Redirected to a page with a list of articles from the source
-	Each article displays an image, title, description and publication date
-	Redirected to the news source's site to read the entir
+    Redirected to a page with a list of articles from the source
+    Each article displays an image, title, description and publication date
+    Redirected to the news source's site to read the entir
 	
 ## Prerequisites
 You need the following to start working on the project on your local computer:
@@ -47,9 +49,6 @@ Ensure you have python3.6 installed in your computer.
 From the terminal navigate to the cloned project folder.
 Create a virtual environment and access the folder via your virtual a machine.
 Visit https://newsapi.org/ and register for an API key.
-Create config.py file and in it write the following lines:
- export NEWS_API_KEY='<Your-Api-Key>'
- python3.6 manage.py server
 * For more info visit :https://projectnews2.herokuapp.com/
 	
 ## Technologies Used

@@ -1,7 +1,9 @@
 # PROJECT NAME
 News Highlights Application
+
 ## Author
 By uwizeyimana Hulde
+
 ## Description
 News Highlights is a web appliction that displays a list of news sources from around the world. A user is able to click on a news source and view an abreviated version of the particular news article. Clicking on the news article will then redirect you to the news article's web page.
 
@@ -11,10 +13,11 @@ With the application, a user will be able to:
 * See all news sources from the source they selected.
 * See Image description and time the news article was created.
 * Click on an article and read it fully from the news source
-### BDD
-This project work for to 
-## Specifications
 
+### BDD
+This project work for to  create an application that will help person to visit list and preview news articles from various sources.
+
+## Specifications
 ### Behaviour	        
 * Display news sources	
 * Display articles from a news source	
@@ -49,6 +52,8 @@ Ensure you have python3.6 installed in your computer.
 From the terminal navigate to the cloned project folder.
 Create a virtual environment and access the folder via your virtual a machine.
 Visit https://newsapi.org/ and register for an API key.
+
+## Link
 * For more info visit :https://projectnews2.herokuapp.com/
 	
 ## Technologies Used
